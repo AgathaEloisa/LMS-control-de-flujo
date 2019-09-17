@@ -6,7 +6,7 @@
     let counter = 0;
     let letter = '';
     for(let i = 0; i < sentence.length; i++){
-        //    Muestra en consola los caracteres uno a uno, pero aún no separados.
+        //    Muestra en consola los caracteres uno a uno, separados por un salto de linea.
         letter += sentence[i].toUpperCase() + '\n';
        if(sentence[i] === ' '){
         //    Cuenta espacios.
