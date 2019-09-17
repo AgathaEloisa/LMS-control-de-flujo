@@ -4,10 +4,10 @@
 
     let spaceCounter = 0;
     let counter = 0;
-    let letter = [];
+    let letter = '';
     for(let i = 0; i < sentence.length; i++){
         //    Muestra en consola los caracteres uno a uno, pero aún no separados.
-        letter.push(sentence[i].toUpperCase());
+        letter += sentence[i].toUpperCase() + '\n';
        if(sentence[i] === ' '){
         //    Cuenta espacios.
             spaceCounter++;
